@@ -3,7 +3,7 @@ import numpy as np
 import time
 
 
-img1 = cv2.imread("H:\\Files\\image_process\\damimi.jpg",3)
+img1 = cv2.imread("H:\\Files\\image_process\\damimi.jpg",1)
 imgInfo = img1.shape
 print(imgInfo)
 height = imgInfo[0]
